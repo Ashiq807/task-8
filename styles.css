@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 60px;
+    background-color: rgb(63, 174, 194);
+    text-align: center;
+    color: white;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+main div{
+    text-align: center;
+}
+main div p{
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;;
+}
+footer{
+    background-color: rgb(71, 107, 107);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer div{
+    text-align: center;
+}
+footer div:not(:first-child){
+    margin-left: 25px;
+}
+footer div p{
+    width: 300px;
+    margin-top: 15px;
+}
